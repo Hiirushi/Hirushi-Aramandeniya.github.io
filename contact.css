@@ -1,0 +1,60 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.First{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin:auto;
+    padding: 20px  0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#active{
+    color: rgb(19, 196, 128);
+}
+nav ul li a:hover{
+    color:rgb(76, 226, 156);
+    text-decoration:overline;
+}
+.logos img{
+    width:10%;
+    height: auto;
+}
+.logos{
+    padding:100px;
+}
+.image{
+    width: 10%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 500px;
+    top:20px;
+}
+.image{transition: 1s;
+}
+.image img:hover{
+   transform: scale(1.1);
+   z-index: 1;
+}
+
